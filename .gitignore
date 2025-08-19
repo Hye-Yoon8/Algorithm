@@ -1,0 +1,7 @@
+/.metadata/
+
+# === Eclipse / Java ===
+/Java/bin/
+/Java/.settings/
+/Java/.classpath
+/Java/.project
