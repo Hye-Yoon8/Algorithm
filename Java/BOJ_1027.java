@@ -8,17 +8,15 @@ public class BOJ_1027 {
 		
 		int[] heights = new int[N];
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		for (int i = 0; i < N; i++) {
-			heights[i] = Integer.parseInt(st.nextToken());
-		}
+		for (int i = 0; i < N; i++) heights[i] = Integer.parseInt(st.nextToken());
 		
 		int result = 0;
 		
 		for (int i = 0; i < N; i++) {
 			int cnt = 0;
 			boolean hasMin = false, hasMax = false;
-			int numMin = 0, denMin = 1;
-			int numMax = 0, denMax = 1;
+			long numMin = 0, denMin = 1;
+			long numMax = 0, denMax = 1;
 			
 			for (int j = i - 1; j >= 0; j--) {
 				int num = heights[i] - heights[j];
