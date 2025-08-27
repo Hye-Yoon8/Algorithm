@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class BOJ_15989 {
+public class BOJ_15989_1 {
 	public static void main(String[] args) throws Exception {
 		int[][] dp = new int[10001][4];
 		dp[0][1] = 1;
