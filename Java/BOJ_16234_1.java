@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class BOJ_16234 {
+public class BOJ_16234_1 {
     static int N, L, R;
     static int[][] country;
     static boolean[][] visited;
